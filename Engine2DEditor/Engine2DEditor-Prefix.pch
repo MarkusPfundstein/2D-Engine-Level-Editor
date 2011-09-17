@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Engine2DEditor' target in the 'Engine2DEditor' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
