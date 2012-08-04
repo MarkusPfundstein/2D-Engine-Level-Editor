@@ -13,6 +13,24 @@
 		201122FA1424B39A00120FBC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 201122F81424B39A00120FBC /* Credits.rtf */; };
 		201122FD1424B39A00120FBC /* Engine2DEditorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 201122FC1424B39A00120FBC /* Engine2DEditorAppDelegate.m */; };
 		201123001424B39A00120FBC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 201122FE1424B39A00120FBC /* MainMenu.xib */; };
+		201123071424B3C700120FBC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 201123061424B3C700120FBC /* OpenGL.framework */; };
+		201764501427CE3B006284D1 /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 2017644F1427CE3B006284D1 /* cross.png */; };
+		204B145B142BBF9C0024FB27 /* woods1.png in Resources */ = {isa = PBXBuildFile; fileRef = 204B1459142BBF9C0024FB27 /* woods1.png */; };
+		204B145E142BC1920024FB27 /* woods1obj.png in Resources */ = {isa = PBXBuildFile; fileRef = 204B145D142BC1920024FB27 /* woods1obj.png */; };
+		2085CB79142663DF00BD50E5 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2085CB78142663DF00BD50E5 /* Quartz.framework */; };
+		208814A714269E9600D0DF92 /* MainMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 208814A614269E9600D0DF92 /* MainMenu.m */; };
+		208814AD1426B6B000D0DF92 /* init_map.txt in Resources */ = {isa = PBXBuildFile; fileRef = 208814AC1426B6B000D0DF92 /* init_map.txt */; };
+		20ADBFAE142BD2BA00344819 /* ToolWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20ADBFAD142BD2BA00344819 /* ToolWindow.m */; };
+		20BC891F1426BF790074086F /* OVERVIEW in Resources */ = {isa = PBXBuildFile; fileRef = 20BC891E1426BF790074086F /* OVERVIEW */; };
+		20BD9A9A14250B31004AFFC1 /* TileWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BD9A9914250B31004AFFC1 /* TileWindow.m */; };
+		20BD9AA414256214004AFFC1 /* Communicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 20BD9AA314256214004AFFC1 /* Communicator.m */; };
+		20CE34E21424B68800E052B7 /* Engine2DView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34E11424B68800E052B7 /* Engine2DView.mm */; };
+		20CE34F41424B9E000E052B7 /* Helpers.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34EB1424B9E000E052B7 /* Helpers.mm */; };
+		20CE34F51424B9E000E052B7 /* Texture2D.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34ED1424B9E000E052B7 /* Texture2D.mm */; };
+		20CE34F61424B9E000E052B7 /* TextureLoader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34EF1424B9E000E052B7 /* TextureLoader.mm */; };
+		20CE34F71424B9E000E052B7 /* WorldMap.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34F01424B9E000E052B7 /* WorldMap.mm */; };
+		20CE34F91424BB5000E052B7 /* Editor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 20CE34F81424BB5000E052B7 /* Editor.mm */; };
+		20CE35011424D45F00E052B7 /* MainWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CE35001424D45F00E052B7 /* MainWindow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +39,44 @@
 		201122EC1424B39A00120FBC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		201122ED1424B39A00120FBC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		201122EE1424B39A00120FBC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		201122F11424B39A00120FBC /* Engine2DEditor-Info.plist */ = {isa = PBXFileReference; path = "Engine2DEditor-Info.plist"; sourceTree = "<group>"; };
+		201122F11424B39A00120FBC /* Engine2DEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Engine2DEditor-Info.plist"; sourceTree = "<group>"; };
 		201122F31424B39A00120FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		201122F51424B39A00120FBC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		201122F71424B39A00120FBC /* Engine2DEditor-Prefix.pch */ = {isa = PBXFileReference; path = "Engine2DEditor-Prefix.pch"; sourceTree = "<group>"; };
+		201122F71424B39A00120FBC /* Engine2DEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Engine2DEditor-Prefix.pch"; sourceTree = "<group>"; };
 		201122F91424B39A00120FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		201122FB1424B39A00120FBC /* Engine2DEditorAppDelegate.h */ = {isa = PBXFileReference; path = Engine2DEditorAppDelegate.h; sourceTree = "<group>"; };
+		201122FB1424B39A00120FBC /* Engine2DEditorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine2DEditorAppDelegate.h; sourceTree = "<group>"; };
 		201122FC1424B39A00120FBC /* Engine2DEditorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine2DEditorAppDelegate.m; sourceTree = "<group>"; };
 		201122FF1424B39A00120FBC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		201123061424B3C700120FBC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		2017644F1427CE3B006284D1 /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		204B1459142BBF9C0024FB27 /* woods1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woods1.png; sourceTree = "<group>"; };
+		204B145D142BC1920024FB27 /* woods1obj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = woods1obj.png; sourceTree = "<group>"; };
+		2085CB78142663DF00BD50E5 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		208814A514269E9600D0DF92 /* MainMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenu.h; sourceTree = "<group>"; };
+		208814A614269E9600D0DF92 /* MainMenu.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = MainMenu.m; sourceTree = "<group>"; };
+		208814AC1426B6B000D0DF92 /* init_map.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = init_map.txt; path = Resources/init_map.txt; sourceTree = "<group>"; };
+		20ADBFAC142BD2BA00344819 /* ToolWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolWindow.h; sourceTree = "<group>"; };
+		20ADBFAD142BD2BA00344819 /* ToolWindow.m */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.objcpp; fileEncoding = 4; path = ToolWindow.m; sourceTree = "<group>"; };
+		20BC891E1426BF790074086F /* OVERVIEW */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OVERVIEW; sourceTree = "<group>"; };
+		20BD9A9814250B31004AFFC1 /* TileWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileWindow.h; sourceTree = "<group>"; };
+		20BD9A9914250B31004AFFC1 /* TileWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileWindow.m; sourceTree = "<group>"; };
+		20BD9AA214256214004AFFC1 /* Communicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Communicator.h; sourceTree = "<group>"; };
+		20BD9AA314256214004AFFC1 /* Communicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Communicator.m; sourceTree = "<group>"; };
+		20CE34E01424B68800E052B7 /* Engine2DView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Engine2DView.h; sourceTree = "<group>"; };
+		20CE34E11424B68800E052B7 /* Engine2DView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Engine2DView.mm; sourceTree = "<group>"; };
+		20CE34E51424B9E000E052B7 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		20CE34EA1424B9E000E052B7 /* Helpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Helpers.h; sourceTree = "<group>"; };
+		20CE34EB1424B9E000E052B7 /* Helpers.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Helpers.mm; sourceTree = "<group>"; };
+		20CE34EC1424B9E000E052B7 /* Texture2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Texture2D.h; sourceTree = "<group>"; };
+		20CE34ED1424B9E000E052B7 /* Texture2D.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Texture2D.mm; sourceTree = "<group>"; };
+		20CE34EE1424B9E000E052B7 /* TextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureLoader.h; sourceTree = "<group>"; };
+		20CE34EF1424B9E000E052B7 /* TextureLoader.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TextureLoader.mm; sourceTree = "<group>"; };
+		20CE34F01424B9E000E052B7 /* WorldMap.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WorldMap.mm; sourceTree = "<group>"; };
+		20CE34F11424B9E000E052B7 /* WorldMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldMap.h; sourceTree = "<group>"; };
+		20CE34F81424BB5000E052B7 /* Editor.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Editor.mm; sourceTree = "<group>"; };
+		20CE34FA1424BB5800E052B7 /* Editor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Editor.h; sourceTree = "<group>"; };
+		20CE34FF1424D45F00E052B7 /* MainWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindow.h; sourceTree = "<group>"; };
+		20CE35001424D45F00E052B7 /* MainWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindow.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +84,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2085CB79142663DF00BD50E5 /* Quartz.framework in Frameworks */,
+				201123071424B3C700120FBC /* OpenGL.framework in Frameworks */,
 				201122EA1424B39A00120FBC /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,9 +96,11 @@
 		201122DA1424B39A00120FBC = {
 			isa = PBXGroup;
 			children = (
+				20BC891E1426BF790074086F /* OVERVIEW */,
 				201122EF1424B39A00120FBC /* Engine2DEditor */,
 				201122E81424B39A00120FBC /* Frameworks */,
 				201122E61424B39A00120FBC /* Products */,
+				20CE35021424F52C00E052B7 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -72,6 +124,8 @@
 		201122EB1424B39A00120FBC /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2085CB78142663DF00BD50E5 /* Quartz.framework */,
+				201123061424B3C700120FBC /* OpenGL.framework */,
 				201122EC1424B39A00120FBC /* AppKit.framework */,
 				201122ED1424B39A00120FBC /* CoreData.framework */,
 				201122EE1424B39A00120FBC /* Foundation.framework */,
@@ -82,9 +136,11 @@
 		201122EF1424B39A00120FBC /* Engine2DEditor */ = {
 			isa = PBXGroup;
 			children = (
+				201122FE1424B39A00120FBC /* MainMenu.xib */,
 				201122FB1424B39A00120FBC /* Engine2DEditorAppDelegate.h */,
 				201122FC1424B39A00120FBC /* Engine2DEditorAppDelegate.m */,
-				201122FE1424B39A00120FBC /* MainMenu.xib */,
+				20BD9AA91425660C004AFFC1 /* GUI */,
+				20CE34E41424B9BF00E052B7 /* Graphics */,
 				201122F01424B39A00120FBC /* Supporting Files */,
 			);
 			path = Engine2DEditor;
@@ -93,6 +149,13 @@
 		201122F01424B39A00120FBC /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20BD9AA214256214004AFFC1 /* Communicator.h */,
+				20BD9AA314256214004AFFC1 /* Communicator.m */,
+				20CE34EE1424B9E000E052B7 /* TextureLoader.h */,
+				20CE34EF1424B9E000E052B7 /* TextureLoader.mm */,
+				20CE34E51424B9E000E052B7 /* Constants.h */,
+				20CE34EA1424B9E000E052B7 /* Helpers.h */,
+				20CE34EB1424B9E000E052B7 /* Helpers.mm */,
 				201122F11424B39A00120FBC /* Engine2DEditor-Info.plist */,
 				201122F21424B39A00120FBC /* InfoPlist.strings */,
 				201122F51424B39A00120FBC /* main.m */,
@@ -100,6 +163,66 @@
 				201122F81424B39A00120FBC /* Credits.rtf */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2017644E1427CE3B006284D1 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				2017644F1427CE3B006284D1 /* cross.png */,
+			);
+			name = GUI;
+			path = Resources/GUI;
+			sourceTree = "<group>";
+		};
+		20BD9AA91425660C004AFFC1 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				20CE34E01424B68800E052B7 /* Engine2DView.h */,
+				20CE34E11424B68800E052B7 /* Engine2DView.mm */,
+				20CE34FF1424D45F00E052B7 /* MainWindow.h */,
+				20CE35001424D45F00E052B7 /* MainWindow.m */,
+				20BD9A9814250B31004AFFC1 /* TileWindow.h */,
+				20BD9A9914250B31004AFFC1 /* TileWindow.m */,
+				208814A514269E9600D0DF92 /* MainMenu.h */,
+				208814A614269E9600D0DF92 /* MainMenu.m */,
+				20ADBFAC142BD2BA00344819 /* ToolWindow.h */,
+				20ADBFAD142BD2BA00344819 /* ToolWindow.m */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		20CE34E41424B9BF00E052B7 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				20CE34F81424BB5000E052B7 /* Editor.mm */,
+				20CE34FA1424BB5800E052B7 /* Editor.h */,
+				20CE34EC1424B9E000E052B7 /* Texture2D.h */,
+				20CE34ED1424B9E000E052B7 /* Texture2D.mm */,
+				20CE34F01424B9E000E052B7 /* WorldMap.mm */,
+				20CE34F11424B9E000E052B7 /* WorldMap.h */,
+			);
+			name = Graphics;
+			sourceTree = "<group>";
+		};
+		20CE35021424F52C00E052B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				208814AC1426B6B000D0DF92 /* init_map.txt */,
+				2017644E1427CE3B006284D1 /* GUI */,
+				20CE35051424F57C00E052B7 /* Tilesets */,
+			);
+			name = Resources;
+			path = Engine2DEditor;
+			sourceTree = "<group>";
+		};
+		20CE35051424F57C00E052B7 /* Tilesets */ = {
+			isa = PBXGroup;
+			children = (
+				204B145D142BC1920024FB27 /* woods1obj.png */,
+				204B1459142BBF9C0024FB27 /* woods1.png */,
+			);
+			name = Tilesets;
+			path = Resources/Tilesets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +251,7 @@
 		201122DC1424B39A00120FBC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "The Saints";
 			};
 			buildConfigurationList = 201122DF1424B39A00120FBC /* Build configuration list for PBXProject "Engine2DEditor" */;
@@ -155,6 +279,11 @@
 				201122F41424B39A00120FBC /* InfoPlist.strings in Resources */,
 				201122FA1424B39A00120FBC /* Credits.rtf in Resources */,
 				201123001424B39A00120FBC /* MainMenu.xib in Resources */,
+				208814AD1426B6B000D0DF92 /* init_map.txt in Resources */,
+				20BC891F1426BF790074086F /* OVERVIEW in Resources */,
+				201764501427CE3B006284D1 /* cross.png in Resources */,
+				204B145B142BBF9C0024FB27 /* woods1.png in Resources */,
+				204B145E142BC1920024FB27 /* woods1obj.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +296,17 @@
 			files = (
 				201122F61424B39A00120FBC /* main.m in Sources */,
 				201122FD1424B39A00120FBC /* Engine2DEditorAppDelegate.m in Sources */,
+				20CE34E21424B68800E052B7 /* Engine2DView.mm in Sources */,
+				20CE34F41424B9E000E052B7 /* Helpers.mm in Sources */,
+				20CE34F51424B9E000E052B7 /* Texture2D.mm in Sources */,
+				20CE34F61424B9E000E052B7 /* TextureLoader.mm in Sources */,
+				20CE34F71424B9E000E052B7 /* WorldMap.mm in Sources */,
+				20CE34F91424BB5000E052B7 /* Editor.mm in Sources */,
+				20CE35011424D45F00E052B7 /* MainWindow.m in Sources */,
+				20BD9A9A14250B31004AFFC1 /* TileWindow.m in Sources */,
+				20BD9AA414256214004AFFC1 /* Communicator.m in Sources */,
+				208814A714269E9600D0DF92 /* MainMenu.m in Sources */,
+				20ADBFAE142BD2BA00344819 /* ToolWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +426,7 @@
 				201123051424B39A00120FBC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

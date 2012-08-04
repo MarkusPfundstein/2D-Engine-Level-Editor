@@ -9,7 +9,6 @@
 #import <Cocoa/Cocoa.h>
 
 @interface Engine2DEditorAppDelegate : NSObject <NSApplicationDelegate> {
-    NSWindow *window;
 }
 
 @property (assign) IBOutlet NSWindow *window;
