@@ -153,6 +153,7 @@
     int i;
     int j;
     int counter;
+    counter = 0; // wow, this one was not initialized
     
     int numImages = NUMBER_SPRITES_TILESET;
     SingleTile *tiles[numImages*numImages];
